@@ -1,0 +1,103 @@
+# Turkish translation for the Application Volume Console NVDA add-on.
+msgid ""
+msgstr ""
+"Project-Id-Version: appVolumeConsole 1.0.0\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Could not access the audio settings"
+msgstr "Ses ayarlarına erişilemedi"
+
+msgid "Application Volume Console"
+msgstr "Uygulama Ses Konsolu"
+
+msgid "The application in focus"
+msgstr "Odaktaki uygulama"
+
+msgid "The first application in the list"
+msgstr "Listedeki ilk uygulama"
+
+msgid "When the console opens, &start from:"
+msgstr "Konsol açıldığında &şuradan başla:"
+
+msgid "Volume &step (percent):"
+msgstr "Ses &adımı (yüzde):"
+
+msgid "Opens the application volume console"
+msgstr "Uygulama ses konsolunu açar"
+
+msgid "Volume console closed"
+msgstr "Ses konsolu kapatıldı"
+
+msgid "No applications with audio"
+msgstr "Ses kullanan uygulama yok"
+
+msgid "Volume console"
+msgstr "Ses konsolu"
+
+msgid ""
+"Left and right arrows: choose application. "
+"Home and end: first and last application. "
+"Up and down arrows: change volume. "
+"M: mute or unmute. "
+"Alt with up and down arrows: change output device. "
+"Control with up and down arrows: change input device. "
+"Space: report the current application. "
+"Escape: close the console."
+msgstr ""
+"Sağ ve sol ok: uygulama seç. "
+"Home ve End: ilk ve son uygulama. "
+"Yukarı ve aşağı ok: ses düzeyini değiştir. "
+"M: sesi kapat veya aç. "
+"Alt ile yukarı ve aşağı ok: çıkış aygıtını değiştir. "
+"Kontrol ile yukarı ve aşağı ok: giriş aygıtını değiştir. "
+"Boşluk: geçerli uygulamayı yeniden oku. "
+"Escape: konsolu kapat."
+
+msgid "The application was closed"
+msgstr "Uygulama kapandı"
+
+msgid "System sounds"
+msgstr "Sistem sesleri"
+
+msgid "no audio session"
+msgstr "ses oturumu yok"
+
+msgid "muted"
+msgstr "sessiz"
+
+msgid "unmuted"
+msgstr "ses açık"
+
+msgid "volume {value}%"
+msgstr "ses %{value}"
+
+msgid "{value}%"
+msgstr "%{value}"
+
+msgid "default"
+msgstr "varsayılan"
+
+msgid "default ({device})"
+msgstr "varsayılan ({device})"
+
+msgid "disconnected device"
+msgstr "bağlı olmayan aygıt"
+
+msgid "output: {device}"
+msgstr "çıkış: {device}"
+
+msgid "input: {device}"
+msgstr "giriş: {device}"
+
+msgid "This application is not using audio right now"
+msgstr "Bu uygulama şu anda ses kullanmıyor"
+
+msgid "The device of system sounds follows the Windows default device"
+msgstr "Sistem sesleri her zaman Windows'un varsayılan aygıtını kullanır"
+
+msgid "This version of Windows does not support choosing a device per application"
+msgstr "Bu Windows sürümü uygulama başına aygıt seçimini desteklemiyor"

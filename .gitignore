@@ -1,0 +1,4 @@
+*.nvda-addon
+*.mo
+__pycache__/
+*.pyc

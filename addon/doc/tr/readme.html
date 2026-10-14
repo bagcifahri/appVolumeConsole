@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uygulama Ses Konsolu</title>
+</head>
+<body>
+<h1>Uygulama Ses Konsolu</h1>
+<p>Yazar: Fahri Bağcı</p>
+<p>Ses kullanan her uygulamanın ses düzeyini, sessiz durumunu, giriş ve çıkış aygıtlarını tek bir komut katmanından yönetir.</p>
+
+<h2>Kullanım</h2>
+<p>Konsolu açmak için <kbd>NVDA+Windows+S</kbd> tuşlarına basın. Kısayolu NVDA menüsü &gt; Tercihler &gt; Girdi hareketleri &gt; "Uygulama Ses Konsolu" bölümünden değiştirebilirsiniz.</p>
+<p>Her uygulama "ad, ses düzeyi (kapalıysa "sessiz"), çıkış aygıtı, giriş aygıtı" biçiminde okunur. Uygulama Windows varsayılan aygıtını kullanıyorsa "varsayılan (aygıt adı)" denir.</p>
+
+<h3>Konsoldaki komutlar</h3>
+<table>
+<thead><tr><th>Tuş</th><th>İşlev</th></tr></thead>
+<tbody>
+<tr><td>Sağ / sol ok</td><td>Sonraki / önceki uygulama</td></tr>
+<tr><td>Home / End</td><td>İlk / son uygulama</td></tr>
+<tr><td>Yukarı / aşağı ok</td><td>Ses düzeyini artır / azalt</td></tr>
+<tr><td>M</td><td>Sesi kapat / aç</td></tr>
+<tr><td>Alt + yukarı / aşağı ok</td><td>Çıkış aygıtını değiştir</td></tr>
+<tr><td>Ctrl + yukarı / aşağı ok</td><td>Giriş aygıtını değiştir</td></tr>
+<tr><td>Boşluk</td><td>Geçerli uygulamayı yeniden oku</td></tr>
+<tr><td>F1</td><td>Komutların listesi</td></tr>
+<tr><td>Esc</td><td>Konsolu kapat</td></tr>
+</tbody>
+</table>
+<p>Bu tuşlar dışında bir tuşa basarsanız konsol kısa bir bip sesiyle kapanır. Başka bir pencere öne geldiğinde de konsol kapanır.</p>
+<p>Aygıt listesinin başında "varsayılan" seçeneği vardır. Bu seçenek uygulamayı yeniden Windows'un varsayılan aygıtına bağlar.</p>
+
+<h2>Ayarlar</h2>
+<p>NVDA ayarlarındaki "Uygulama Ses Konsolu" kategorisinde şunlar bulunur:</p>
+<ul>
+<li><strong>Konsol açıldığında şuradan başla:</strong> odaktaki uygulama (varsayılan) veya listedeki ilk uygulama.</li>
+<li><strong>Ses adımı:</strong> ok tuşlarıyla ses düzeyinin yüzde kaç değişeceği, 1 ile 25 arası (varsayılan 5).</li>
+</ul>
+
+<h2>Notlar</h2>
+<ul>
+<li>Liste, Windows Ses Karıştırıcısı'nda görünen uygulamalardan, yani ses oturumu açmış uygulamalardan oluşur. Konsolu açtığınızda odakta olan uygulama da listeye eklenir: ses çalmadan önce de aygıtı seçilebilir.</li>
+<li>Uygulama başına aygıt seçimi, Windows Ayarlar'daki "Uygulama ses düzeyi ve cihaz tercihleri" sayfasının kullandığı belgelenmemiş Windows arabirimiyle yapılır. Bazı uygulamalar yeni aygıta ancak sesi yeniden başladığında geçer.</li>
+</ul>
+
+<h2>Değişiklikler</h2>
+<h3>1.0.0</h3>
+<ul><li>İlk sürüm.</li></ul>
+</body>
+</html>
